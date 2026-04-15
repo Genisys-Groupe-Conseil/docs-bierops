@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6637dda7-2372-4e1a-b799-fb973c95e41f" name="Changes" comment="Initialize Docusaurus project for BierOps documentation">
-      <change afterPath="$PROJECT_DIR$/blog/2026-01-01-roadmap.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/2026-04-15-release-123.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-28-first-blog-post.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-29-long-blog-post.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-01-mdx-blog-post.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-26-welcome/index.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/authors.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/achats/_category_.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/achats/_category_.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +24,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="search" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "edbourque0"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;edbourque0&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Genisys-Groupe-Conseil/docs-bierops.git",
-    "accountId": "d367bf6b-68f3-4f72-9da4-466014111281"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Genisys-Groupe-Conseil/docs-bierops.git&quot;,
+    &quot;accountId&quot;: &quot;d367bf6b-68f3-4f72-9da4-466014111281&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -67,7 +62,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "search-algolia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

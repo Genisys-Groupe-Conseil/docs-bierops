@@ -118,6 +118,14 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'AK26R50YGL',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'e4ea6a2c63d287c4697f885d1e0b950f',
+      indexName: 'bierops-test',
+    },
   } satisfies Preset.ThemeConfig,
 };
 

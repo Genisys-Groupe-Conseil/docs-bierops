@@ -15,6 +15,11 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
+  --docsearch-searchbox-background: var(--ifm-color-secondary);
+  --docsearch-hit-background: var(--ifm-color-white);
+  --docsearch-footer-background: var(--ifm-color-white);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +32,9 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docsearch-modal-background: var(--ifm-background-color);
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  --docsearch-footer-background: var(--ifm-background-surface-color);
 }
+
