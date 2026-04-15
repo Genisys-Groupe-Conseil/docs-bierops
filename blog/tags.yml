@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+release:
+  label: Releases
+  permalink: /releases
+  description: BierOps release notes
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+annonce:
+  label: Annonce
+  permalink: /annonces
+  description: Annonces importantes concernant BierOps
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+roadmap:
+  label: Roadmap
+  permalink: /roadmap
+  description: Roadmap BierOps

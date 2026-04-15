@@ -1,25 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+gmorin:
+  name: Guillaume Morin
+  title: Lead Développeur, BierOps
+  url: https://genisys.solutions/en/directory-of-employees/#guillaume-morin
+  image_url: https://genisys.solutions/app/uploads/2024/03/Guillaume_Morin.jpg
   page: true
-  socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+plgirard:
+  name: Pierre-Luc Girard
+  title: Spécialiste technique
+  image_url: https://media.redcircle.com/images/2023/9/22/16/d47a8361-5359-4318-83aa-37c9fffdb756_e47__artwork_v2_.jpg
+  page: true
