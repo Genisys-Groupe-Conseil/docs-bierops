@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_bierops=self.webpackChunkdocumentation_bierops||[]).push([["668"],{6569(e,r,s){s.r(r),s.d(r,{default:()=>i});var a=s(4848);s(6540);var n=s(4164),t=s(4308),u=s(8287),c=s(2831),o=s(1085);function i(e){return(0,a.jsx)(t.e3,{className:(0,n.A)(u.G.wrapper.docsPages),children:(0,a.jsx)(o.A,{children:(0,c.v)(e.route.routes)})})}}}]);
