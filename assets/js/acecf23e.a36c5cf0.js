@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_bierops=self.webpackChunkdocumentation_bierops||[]).push([["3220"],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/docs-bierops/blog","blogTitle":"Blog","authorsListPath":"/docs-bierops/blog/authors"}')}}]);

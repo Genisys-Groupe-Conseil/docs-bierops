@@ -2,111 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog</id>
     <title>Documentation BierOps Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2026-04-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://genisys-groupe-conseil.github.io/docs-bierops/blog"/>
     <subtitle>Documentation BierOps Blog</subtitle>
     <icon>https://genisys-groupe-conseil.github.io/docs-bierops/img/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/welcome</id>
-        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<!-- -->
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Release notes v1.2.3]]></title>
+        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123</id>
+        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123"/>
+        <updated>2026-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🆕 Nouveautés]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nouveautés">🆕 Nouveautés<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123#-nouveaut%C3%A9s" class="hash-link" aria-label="Lien direct vers 🆕 Nouveautés" title="Lien direct vers 🆕 Nouveautés" translate="no">​</a></h2>
 <ul>
-<li class=""><code>2019-05-30-welcome.md</code></li>
-<li class=""><code>2019-05-30-welcome/index.md</code></li>
+<li class=""><strong>Feuilles de fermentation améliorées</strong> : Il est maintenant possible d'ajouter des notes libres directement sur une lecture de densité ou de pH, pour documenter les observations terrain sans quitter l'interface.</li>
+<li class=""><strong>Planification des bouilloires</strong> : Une vue hebdomadaire a été ajoutée en complément de la vue journalière, pour faciliter la planification des brassins sur plusieurs jours.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://genisys-groupe-conseil.github.io/docs-bierops/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-améliorations">⚙️ Améliorations<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123#%EF%B8%8F-am%C3%A9liorations" class="hash-link" aria-label="Lien direct vers ⚙️ Améliorations" title="Lien direct vers ⚙️ Améliorations" translate="no">​</a></h2>
+<ul>
+<li class="">L'import de recettes depuis BeerSmith accepte désormais les fichiers <code>.bsmx</code> en plus du format <code>.xml</code>.</li>
+<li class="">Le module de gestion des levures affiche maintenant le nombre de générations restantes estimées directement dans la liste des souches.</li>
+<li class="">Les rapports de production exportés en PDF incluent désormais le logo de la brasserie configuré dans les paramètres.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-correctifs">🐛 Correctifs<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123#-correctifs" class="hash-link" aria-label="Lien direct vers 🐛 Correctifs" title="Lien direct vers 🐛 Correctifs" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>[BO-384]</strong> Correction d'un bug où la densité finale n'était pas sauvegardée si l'on naviguait rapidement vers un autre brassin.</li>
+<li class=""><strong>[BO-391]</strong> Le calcul du rendement en brassage affichait une valeur incorrecte lorsque plusieurs ajouts d'eau étaient enregistrés dans la même session.</li>
+<li class=""><strong>[BO-402]</strong> Correction de l'affichage du statut des cuves sur le tableau de bord lorsque la connexion réseau était instable.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-à-noter">⚠️ À noter<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/v123#%EF%B8%8F-%C3%A0-noter" class="hash-link" aria-label="Lien direct vers ⚠️ À noter" title="Lien direct vers ⚠️ À noter" translate="no">​</a></h2>
+<p>La synchronisation avec <strong>PivoHub</strong> nécessite une mise à jour du connecteur vers la version <strong>1.6.0</strong> ou supérieure pour bénéficier des nouveautés de cette version.</p>
+<hr>
+<p><em>Pour toute question, contactez notre équipe à <a href="mailto:info@bierops.com" target="_blank" rel="noopener noreferrer" class="">info@bierops.com</a></em></p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Guillaume Morin</name>
+            <uri>https://genisys.solutions/en/directory-of-employees/#guillaume-morin</uri>
         </author>
         <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
+            <name>Pierre-Luc Girard</name>
         </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Releases" term="Releases"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/mdx-blog-post</id>
-        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>astuce</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></div></code></pre></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/long-blog-post</id>
-        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>{/*</code> <code>truncate</code> <code>*/}</code> comment to limit blog post size in the list view.</p>
-<!-- -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/first-blog-post</id>
-        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<!-- -->
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <title type="html"><![CDATA[Roadmap BierOps]]></title>
+        <id>https://genisys-groupe-conseil.github.io/docs-bierops/blog/2026/01/01/roadmap</id>
+        <link href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/2026/01/01/roadmap"/>
+        <updated>2026-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Les fonctionnalités en cours de développement et planifiées pour BierOps]]></summary>
+        <content type="html"><![CDATA[<p>Voici un aperçu transparent de ce sur quoi notre équipe travaille. Cette roadmap est mise à jour à chaque trimestre.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Dernière mise à jour</div><div class="admonitionContent_BuS1"><p>Avril 2026 — Q2 en cours</p></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vue-densemble">Vue d'ensemble<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/2026/01/01/roadmap#vue-densemble" class="hash-link" aria-label="Lien direct vers Vue d'ensemble" title="Lien direct vers Vue d'ensemble" translate="no">​</a></h2>
+<div class="theme-tabs-container tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">🔨 Q2 2026 — En cours</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">📅 Q3 2026 — Planifié</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">🔭 Q4 2026 — En exploration</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><p><strong>Portail client &amp; commandes</strong></p><p>Permettre aux brasseries de recevoir des commandes directement depuis BierOps, sans passer par un outil tiers.</p><ul><li>Interface de gestion des clients (grossistes, détaillants)</li><li>Création et envoi de bons de commande</li><li>Intégration avec la gestion des stocks en temps réel</li></ul><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>remarque</div><div class="admonitionContent_BuS1"><p>Cette fonctionnalité est développée en collaboration avec plusieurs brasseries partenaires au Québec.</p></div></div><p><strong>Amélioration du module de levures</strong></p><ul><li>Graphique d'évolution de la viabilité par génération</li><li>Alertes automatiques avant dépassement du seuil de générations recommandées</li><li>Export du journal de levure en PDF</li></ul></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p><strong>Application mobile (iOS &amp; Android)</strong></p><p>Consultation des feuilles de brassage et de fermentation directement depuis le plancher de production, sans avoir besoin d'un poste fixe.</p><ul><li>Lecture des densités, pH et températures</li><li>Ajout de notes rapides sur un brassin</li><li>Notifications push pour les alertes de cuve</li></ul><div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Bêta fermée</div><div class="admonitionContent_BuS1"><p>Une bêta sera disponible pour les clients existants avant le lancement public. Contactez-nous pour y participer.</p></div></div><p><strong>Tableaux de bord personnalisables</strong></p><ul><li>Ajout, suppression et réorganisation des widgets par glisser-déposer</li><li>Sauvegarde de plusieurs configurations de tableau de bord par utilisateur</li></ul></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p><strong>Prévisions de production assistées</strong></p><p>Sur la base de l'historique de ventes (via l'intégration PivoHub) et des tendances saisonnières, BierOps pourrait suggérer un plan de brassage pour les semaines à venir.</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Statut</div><div class="admonitionContent_BuS1"><p>Ce chantier est encore en phase d'exploration. Aucun engagement de date pour l'instant.</p></div></div><p><strong>Gestion multi-sites</strong></p><p>Support de plusieurs sites de production dans un même compte BierOps, avec consolidation des stocks et des rapports.</p></div></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-récemment-livré">✅ Récemment livré<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/2026/01/01/roadmap#-r%C3%A9cemment-livr%C3%A9" class="hash-link" aria-label="Lien direct vers ✅ Récemment livré" title="Lien direct vers ✅ Récemment livré" translate="no">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Voir les fonctionnalités des dernières versions</summary><div><div class="collapsibleContent_i85q"><p><strong>BierOps 2.4.x</strong></p><ul>
+<li class=""><strong>Import BeerSmith <code>.bsmx</code></strong> : Les recettes peuvent maintenant être importées depuis les fichiers BeerSmith au format <code>.bsmx</code>.</li>
+<li class=""><strong>Générations de levures</strong> : Le nombre de générations restantes estimées est affiché directement dans la liste des souches.</li>
+<li class=""><strong>Logo dans les exports PDF</strong> : Les rapports incluent désormais le logo de la brasserie.</li>
+<li class=""><strong>Vue hebdomadaire des bouilloires</strong> : Complément à la vue journalière pour la planification sur plusieurs jours.</li>
+<li class=""><strong>Notes libres sur les lectures</strong> : Il est possible d'ajouter des observations directement sur une lecture de densité ou de pH.</li>
+</ul></div></div></details>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-proposer-une-fonctionnalité">💬 Proposer une fonctionnalité<a href="https://genisys-groupe-conseil.github.io/docs-bierops/blog/2026/01/01/roadmap#-proposer-une-fonctionnalit%C3%A9" class="hash-link" aria-label="Lien direct vers 💬 Proposer une fonctionnalité" title="Lien direct vers 💬 Proposer une fonctionnalité" translate="no">​</a></h2>
+<p>Vous avez une idée ou un besoin spécifique à votre brasserie ?</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Faites-vous entendre</div><div class="admonitionContent_BuS1"><p>Écrivez-nous à <a href="mailto:info@bierops.com" target="_blank" rel="noopener noreferrer" class="">info@bierops.com</a> ou parlez-en directement à votre représentant lors de votre prochain suivi.
+Les demandes les plus fréquentes influencent directement la priorisation de cette roadmap.</p></div></div>]]></content>
     </entry>
 </feed>
