@@ -15,17 +15,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://genisys-groupe-conseil.github.io',
+  url: 'https://wonderful-sky-0f2f2c20f.7.azurestaticapps.net/',
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs-bierops/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Genisys-Groupe-Conseil', // Usually your GitHub org/user name.
   projectName: 'docs-bierops', // Usually your repo name.
-  deploymentBranch:'gh-pages',
+  deploymentBranch:'azure',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
