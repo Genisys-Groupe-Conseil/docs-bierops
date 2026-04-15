@@ -1,0 +1,8 @@
+{
+  "label": "Achats",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Cette section couvre la gestion des achats dans BierOps, incluant les articles, fournisseurs, commandes d'achat, réceptions et la planification des achats."
+  }
+}
