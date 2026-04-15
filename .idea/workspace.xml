@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6637dda7-2372-4e1a-b799-fb973c95e41f" name="Changes" comment="Initialize Docusaurus project for BierOps documentation">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/azure-static-web-apps-wonderful-sky-0f2f2c20f.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+    <list default="true" id="6637dda7-2372-4e1a-b799-fb973c95e41f" name="Changes" comment="Create Azure branch for testing static web apps">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/azure-static-web-apps-wonderful-sky-0f2f2c20f.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure-static-web-apps-wonderful-sky-0f2f2c20f.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+    "ts.external.directory.path": "C:\\Users\\EdouardBourque\\Documents\\Code\\documentation-bierops\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776265985936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create Azure branch for testing static web apps">
+      <option name="closed" value="true" />
+      <created>1776280933616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776280933616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize Docusaurus project for BierOps documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Docusaurus project for BierOps documentation" />
+    <MESSAGE value="Create Azure branch for testing static web apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Azure branch for testing static web apps" />
   </component>
 </project>
