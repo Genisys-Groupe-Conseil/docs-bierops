@@ -118,6 +118,17 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    algolia: {
+      appId: 'AK26R50YGL',
+      apiKey: 'e4ea6a2c63d287c4697f885d1e0b950f',
+      indexName: 'BierOps Docs - Test',
+      askAi: {
+        assistantId: '9942f97b-9988-47bf-8f25-13204b0babc7',
+        indexName: 'BierOps Docs - Test',
+        apiKey: 'e4ea6a2c63d287c4697f885d1e0b950f',
+        appId: 'AK26R50YGL',
+      },
+    },
   } satisfies Preset.ThemeConfig,
 };
 
