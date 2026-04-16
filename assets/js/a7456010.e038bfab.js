@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_bierops=self.webpackChunkdocumentation_bierops||[]).push([["56"],{8552(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_bierops=self.webpackChunkdocumentation_bierops||[]).push([["462"],{3983(e){e.exports=JSON.parse('{"metadata":{"permalink":"/docs-bierops/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

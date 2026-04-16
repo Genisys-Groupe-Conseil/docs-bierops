@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation_bierops=self.webpackChunkdocumentation_bierops||[]).push([["230"],{9315(e){e.exports=JSON.parse('{"tags":[{"label":"Releases","permalink":"/docs-bierops/blog/tags/releases","description":"BierOps release notes","count":1}]}')}}]);
